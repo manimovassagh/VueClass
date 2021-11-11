@@ -22,8 +22,19 @@
         </v-btn>
       </template>
     </v-snackbar>
+ 
   </div>
 </template>
-<script script='./Snackbar.ts'>
 
+<script>
+
+  export default {
+    components:{
+
+    },
+    data: () => ({
+      snackbar: false,
+      text: `Hello, I'm a snackbar`,
+    }),
+  }
 </script>

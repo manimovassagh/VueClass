@@ -22,19 +22,11 @@
         </v-btn>
       </template>
     </v-snackbar>
-    <Snackbar/>
-    <Snackbar2/>
   </div>
 </template>
-
 <script>
-import Snackbar from '../components/Snackbar/Snakbar.vue'
-import Snackbar2 from '../components/Snackbar2/Snackbar2.vue'
   export default {
-    components:{
-Snackbar,
-Snackbar2
-    },
+     name: 'Snackbar2',
     data: () => ({
       snackbar: false,
       text: `Hello, I'm a snackbar`,

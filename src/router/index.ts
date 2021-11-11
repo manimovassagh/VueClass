@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import Home from '../views/Home.vue'
-import Contact from '../views/Contact/Contact.vue'
+import Pedex from '../views/Contact/Pedex.vue'
+import Cc from '../views/CC/Cc.vue'
 
 Vue.use(VueRouter)
 
@@ -12,9 +13,15 @@ const routes: Array<RouteConfig> = [
     component: Home
   },
   {
-    path: '/contact',
+    path: '/pedex',
     name: 'Contact',
-    component: Contact
+    component: Pedex
+  },
+ 
+  {
+    path: '/cc',
+    name: 'Cc',
+    component: Cc
   },
   {
     path: '/about',

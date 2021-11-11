@@ -3,7 +3,8 @@
     <v-container>
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
-      <router-link to="/contact">Contact</router-link>
+      <router-link to="/pedex">pedex</router-link>
+      <router-link to="/cc">CC</router-link>
     </v-container>
     <v-main>
       <router-view />
